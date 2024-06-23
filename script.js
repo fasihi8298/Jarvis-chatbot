@@ -44,6 +44,7 @@ recognition.continuous = true;
 
 
 // Jarvis speech //
+
 function readout(message){
     if ('speechSynthesis' in window) {
         const speech = new SpeechSynthesisUtterance();
